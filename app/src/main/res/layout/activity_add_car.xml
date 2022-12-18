@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.AddCarActivity">
+<EditText
+    android:id="@+id/addCarName"
+    android:layout_margin="5dp"
+    android:background="@drawable/shape_border"
+    android:padding="10dp"
+    android:hint="Mashina Nomi"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <EditText
+        android:inputType="number"
+    android:id="@+id/addCarPrice"
+    android:layout_margin="5dp"
+    android:background="@drawable/shape_border"
+    android:padding="10dp"
+    android:hint="Mashina Narxi"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/addCarColor"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_border"
+            android:padding="10dp"
+            android:hint="Mashina Rangi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:inputType="number"
+            android:layout_weight="1"
+            android:id="@+id/addCarAge"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_border"
+            android:padding="10dp"
+            android:hint="Mashina Yili"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_margin="5dp"
+        android:background="@drawable/shape_border_button3"
+        android:id="@+id/MashinaQushish"
+        android:text="Qoshish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+    android:layout_margin="5dp"
+        android:background="@drawable/shape_border_button3"
+        android:id="@+id/MashinaKurish"
+        android:text="Ko`rish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

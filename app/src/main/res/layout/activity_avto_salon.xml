@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="start"
+    android:background="@drawable/avtosalon"
+    tools:context=".ui.AvtoSalonActivity">
+<androidx.appcompat.widget.AppCompatButton
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:id="@+id/AddCar"
+    android:text="Mashina Qo`shish"
+    android:background="@drawable/shape_border"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_margin="10dp"
+        android:padding="10dp"
+    android:id="@+id/ShowCar"
+    android:text="Mashina Ko`rish"
+    android:background="@drawable/shape_border"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+</LinearLayout>
